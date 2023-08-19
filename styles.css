@@ -16,6 +16,25 @@ header {
   height: 10vh;
   display: flex;
   justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.fiap-logo {
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.back-link {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  padding: 5px;
 }
 
 a {
@@ -36,13 +55,39 @@ a {
   margin: 50px 0px;
 }
 
+.img-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1% 0px;
+}
+
+.first-img {
+  max-width: 100%;
+  min-height: 500px;
+  max-height: 1000px;
+}
+
+.second-img {
+  max-width: 100%;
+  min-height: 200px;
+  max-height: 1000px;
+}
+
+.third-img {
+  max-width: 100%;
+  min-height: 400px;
+  max-height: 5000px;
+}
+
 .buttons-container {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 50vh;
-  gap: 5%;
+  gap: 10%;
+  margin: 2% 0px;
 }
 
 .main-page-button {
@@ -53,4 +98,45 @@ a {
   border-radius: 10px;
   cursor: pointer;
   transition: 0.3s;
+}
+
+.introduction-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1% 15%;
+  gap: 1rem;
+}
+
+.apresentacao-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+}
+
+.project-title {
+  text-align: center;
+}
+
+.project-container {
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+}
+
+.members-container {
+  align-self: center;
+}
+
+.course-list {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.course-list li {
+  margin-bottom: 20px;
+  text-align: center;
 }
